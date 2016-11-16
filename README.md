@@ -18,5 +18,5 @@ The layer scale is configed in layer_groupN(N) that display/hide layers belong t
 In this case, the normal legend widget will list all legend regardless of current scale.
 
 ## Issue
-It could not work if the layer group has sub-gourp.
+It could not work if the layer group has sub-group.
 
