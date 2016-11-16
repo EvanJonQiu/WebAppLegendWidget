@@ -74,6 +74,9 @@ define([
         this.own(on(this.map, "extent-change", lang.hitch(this, function(evt) {
           this.onLayersVisibilityChange();
         })));
+        this.own(on(this.map, "layer-add-result", lang.hitch(this, function(evt) {
+          this.onLayersVisibilityChange();
+        })));
       },
 
       onLayersVisibilityChange: function() {
